@@ -29,7 +29,7 @@ body, html {
 }
 
 .content-list {
-  width: 50%; 
+  width: 60%; 
   background-color: #fff;
   padding: 2%; 
   overflow-y: auto;
@@ -37,8 +37,8 @@ body, html {
 }
 
 .content-details {
-  width: 50%; 
-  padding: 2%; 
+  width: 40%; 
+  padding: 8%; 
   background-color: #fff;
   display: flex;
   flex-direction: column; 
@@ -70,7 +70,7 @@ li:hover {
 }
 
 .deleteButton {
-  background-color: #f44336;
+  background-color: #aad1f4;
   padding: 10px 20px; 
   color: white;
   border: none; 
@@ -80,7 +80,7 @@ li:hover {
 }
 
 .deleteButton:hover {
-  background-color: #d32f2f;
+  background-color: #aad1f4;
 }
 
 input{
@@ -95,7 +95,7 @@ input{
 
 #saveButton, #clearButton {
   padding: 10px 20px; 
-  background-color:#555555;;
+  background-color:#435cdc;
   color: white;
   border: none; 
   border-radius: 5px; 
