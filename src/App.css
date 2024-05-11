@@ -70,7 +70,7 @@ li:hover {
 }
 
 .deleteButton {
-  background-color: #aad1f4;
+  background-color: #333;
   padding: 10px 20px; 
   color: white;
   border: none; 
@@ -80,7 +80,7 @@ li:hover {
 }
 
 .deleteButton:hover {
-  background-color: #aad1f4;
+  background-color: #333;
 }
 
 input{
