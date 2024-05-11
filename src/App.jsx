@@ -4,35 +4,35 @@ import './App.css';
 const initialBooks = [
 	{
 	  id: 1,
-	  title: "Harry Potter",
-	  author: "J.K. Rowling",
-	  isbn: "234111234",
-	  price: "13.99",
-	  publicationDate: "1997-06-30",
+	  title: "Title: Harry Potter",
+	  author: "Author: J.K. Rowling",
+	  isbn: "Isbn: 234111234",
+	  price: "Price: 13.99",
+	  publicationDate: "Date of publication: 1997-06-30",
 	},
 	{
 	  id: 2,
-	  title: "Lord Of Rings",
-	  author: "Tolkien",
-	  isbn: "2342223334",
-	  price: "12.99",
-	  publicationDate: "1954-07-24",
+	  title: "Title: Lord Of Rings",
+	  author: "Author: Tolkien",
+	  isbn: "Isbn: 2342223334",
+	  price: "Price: 12.99",
+	  publicationDate: "Date of publication: 1954-07-24",
 	},
 	{
 		id: 3,
-		title: "Wuthering Heights",
-		author: "Emily Bronte",
-		isbn: "873094213331",
-		price: "14.99",
-		publicationDate: "1847-12-12",
+		title: "Title: Wuthering Heights",
+		author: "Author: Emily Bronte",
+		isbn: "Isbn: 873094213331",
+		price: "Price: 14.99",
+		publicationDate: "Date of publication: 1847-12-12",
 	},
 	{
 		id: 4,
-		title: "Madame Bovary",
-		author: "Gustave Flaubert",
-		isbn: "68904442211",
-		price: "15.99",
-		publicationDate: "1856-12-15",
+		title: "Title: Madame Bovary",
+		author: "Author: Gustave Flaubert",
+		isbn: "Isbn: 68904442211",
+		price: "Price: 15.99",
+		publicationDate: "Date of publication: 1856-12-15",
 	}
   ];
   
@@ -71,7 +71,7 @@ const initialBooks = [
 
 	const handleSave = () => {
 		if (!selectedBook.title || !selectedBook.author || !selectedBook.isbn || !selectedBook.price || !selectedBook.publicationDate) {
-		  alert('All fields must be filled out');
+		  alert('All fields must be filled out!');
 		  return;
 		}
 	
@@ -123,7 +123,7 @@ const initialBooks = [
 			  )}
 			</ul>
 			<div className="content-details">
-			  <h2>Book Details:</h2>
+			  <h2>Book details:</h2>
 			  <form>
 				<input id="field1" name="title" value={selectedBook.title} onChange={handleChange} placeholder="Title" required />
 				<input id="field2" name="author" value={selectedBook.author} onChange={handleChange} placeholder="Author" required />
